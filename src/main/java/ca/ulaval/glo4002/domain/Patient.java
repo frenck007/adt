@@ -1,4 +1,4 @@
-package ca.ulaval.glo4002.adt;
+package ca.ulaval.glo4002.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

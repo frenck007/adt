@@ -1,4 +1,4 @@
-package ca.ulaval.glo4002.adt;
+package ca.ulaval.glo4002.persistence;
 import javax.persistence.EntityManager;
 
 public class EntityManagerProvider {

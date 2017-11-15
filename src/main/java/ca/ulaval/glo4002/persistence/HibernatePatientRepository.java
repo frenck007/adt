@@ -1,8 +1,10 @@
-package ca.ulaval.glo4002.adt;
+package ca.ulaval.glo4002.persistence;
 
 import java.util.Collection;
 
 import javax.persistence.EntityManager;
+
+import ca.ulaval.glo4002.domain.Patient;
 
 public class HibernatePatientRepository {
 

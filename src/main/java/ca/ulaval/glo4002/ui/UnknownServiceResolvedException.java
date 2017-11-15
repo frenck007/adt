@@ -1,4 +1,4 @@
-package ca.ulaval.glo4002.adt;
+package ca.ulaval.glo4002.ui;
 
 public class UnknownServiceResolvedException extends RuntimeException {
 	public <T> UnknownServiceResolvedException(Class<T> contract) {
