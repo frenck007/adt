@@ -1,8 +1,8 @@
 package ca.ulaval.glo4002.ui;
 
-import ca.ulaval.glo4002.Server;
+import ca.ulaval.glo4002.contexte.Server;
 
-public class Resource {
+public class Console {
 
 	public static void startCommandPromptLoop() {
 		System.out.println("Welcome to GLO-4002's ADT!");
@@ -10,7 +10,7 @@ public class Resource {
 		boolean quit = false;
 	
 		while (!quit) {
-			String option = Resource.pickOptionFromMenu();
+			String option = Console.pickOptionFromMenu();
 			System.out.println("\n");
 			switch (option) {
 			case "1": {

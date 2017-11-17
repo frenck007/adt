@@ -1,4 +1,4 @@
-package ca.ulaval.glo4002;
+package ca.ulaval.glo4002.contexte;
 
 import java.util.Collection;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ import ca.ulaval.glo4002.applicationService.ServiceLocator;
 import ca.ulaval.glo4002.domain.Patient;
 import ca.ulaval.glo4002.persistence.EntityManagerProvider;
 import ca.ulaval.glo4002.persistence.HibernatePatientRepository;
-import ca.ulaval.glo4002.ui.Resource;
+import ca.ulaval.glo4002.ui.Console;
 
 public class Server {
 	public static Scanner scanner;
@@ -26,7 +26,7 @@ public class Server {
 
 		try (Scanner scanner = new Scanner(System.in)) {
 			Server.scanner = scanner;
-			Resource.startCommandPromptLoop();
+			Console.startCommandPromptLoop();
 		}
 
 		System.exit(0);
